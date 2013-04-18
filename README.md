@@ -6,7 +6,7 @@ MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ�
 ## 検証環境
 * CentOS
   * CentOS release 6.4 (Final)
-* MySQL
+* MySQL (オラクル公式rpmを利用)
   * [MySQL-shared-compat-5.6.10-1.el6.x86_64](http://y-ken.github.io/package/centos/6/x86_64/MySQL-shared-compat-5.6.10-1.el6.x86_64.rpm)
   * [MySQL-client-5.6.10-1.el6.x86_64](http://y-ken.github.io/package/centos/6/x86_64/MySQL-client-5.6.10-1.el6.x86_64.rpm)
   * [MySQL-devel-5.6.10-1.el6.x86_64](http://y-ken.github.io/package/centos/6/x86_64/MySQL-devel-5.6.10-1.el6.x86_64.rpm)
