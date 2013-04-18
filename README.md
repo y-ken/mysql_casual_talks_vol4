@@ -3,7 +3,28 @@
 
 MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ、生ログをまとめたリポジトリです。
 
+## 今回のテーマ
+
+* MySQL-5.6.4のInnoDBでは全文検索が可能となった！
+* しかしMeCabTokenizerどころかNgramにすら非対応
+* スペース区切りなら検索できる！（ポジティブ思考）
+* 自前で分かち書きすれば動くのでは？でも速度は？
+
+
+こんな状況に果敢に挑戦したレポートです
+
 ## 検証環境
+
+### ハードウェア
+
+|     |   |
+|:---:|---|
+| H/W | NEC Express5800/iR120a-1E |
+| CPU | Intel Xeon L5520 2.27GHz |
+| MEM | 16GB (4GB * 4) |
+| HDD | SAS 10krpm HDD (FUJITSU MBD2300RC) RAID-1 (MegaRAID 8708EM2) |
+
+### ソフトウェア
 * CentOS
   * CentOS release 6.4 (Final)
 * MySQL (オラクル公式rpmを利用)
@@ -29,6 +50,8 @@ MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ�
   `gem build mecab-ruby.gemspec`でgemファイルを作成後、  
   `sudo gem install mecab-ruby-*.gem`でインストール
 
+### my.cnf
+TODO
 
 ## ファイル構成
 TODO
