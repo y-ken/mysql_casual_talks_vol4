@@ -5,13 +5,19 @@ MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ�
 
 ## 今回のテーマ
 
-* MySQL-5.6.4のInnoDBでは全文検索が可能となった！
-* しかしMeCabTokenizerどころかNgramにすら非対応
+* MySQL-5.6.4のInnoDBでは全文検索が可能となりました！
+* しかし、MeCabTokenizerどころかNgramにすら非対応・・・だと！？
 * スペース区切りなら検索できる！（ポジティブ思考）
-* 自前で分かち書きすれば動くのでは？でも速度は？
-
+* 自前で分かち書きすれば動くのでは？
+* その場合、現実的な速度は出るのか？
 
 こんな状況に果敢に挑戦したレポートです
+
+## ブログ
+TODO
+
+## スライド
+TODO
 
 ## 検証環境
 
@@ -52,13 +58,27 @@ MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ�
 
 ### my.cnf
 TODO
+```
+# InnoDB
+innodb_buffer_pool_size=10G
+innodb_file_per_table
+innodb_file_format=Barracuda
+innodb_log_buffer_size=8M
+innodb_log_files_in_group=2
+innodb_log_file_size=128M
+innodb_additional_mem_pool_size=8M
+
+# Fulltext
+ft_min_word_len=1
+innodb_ft_min_token_size=1
+```
 
 ## ファイル構成
 TODO
 
 ## ダウンロード
-リポジトリを丸ごとダウンロード出来ます。  
-手元に同様の環境を作成する場合に手っ取り早いです。
+gh-pagesというブランチを利用しているため、リポジトリを丸ごとzipでダウンロード出来ます。  
+手元に同様の環境を作成する場合など、`git clone`するよりも速いです。
 ```
 $ wget https://github.com/y-ken/mysql_casual_talks_vol4/archive/gh-pages.zip
 ```
