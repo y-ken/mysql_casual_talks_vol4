@@ -52,9 +52,9 @@ TODO
   * mecab-0.995-1.el6.x86_64
 * Ruby-1.9.3-p374 (1.9.xならOK)
   * mecab-ruby (gem）  
-  [MeCab本体と同じバージョンのtar玉をダウンロード](https://code.google.com/p/mecab/downloads/list?can=2&q=mecab-ruby&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount) し、  
-  `gem build mecab-ruby.gemspec`でgemファイルを作成後、  
-  `sudo gem install mecab-ruby-*.gem`でインストール
+  [MeCab本体と同じバージョンのtar玉をダウンロード](https://code.google.com/p/mecab/downloads/list?can=2&q=mecab-ruby&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount) して解凍後、  
+  `gem build mecab-ruby.gemspec`でgemファイルを作成し、  
+  `sudo gem install mecab-ruby-*.gem`でインストールします
 
 ### my.cnf
 TODO
@@ -77,9 +77,8 @@ innodb_ft_min_token_size=1
 TODO
 
 ## ダウンロード
-gh-pagesというブランチを利用しているため、リポジトリを丸ごとzipでダウンロード出来ます。  
+リポジトリを丸ごとzipでダウンロード出来ます。およそ1GBです。  
 手元に同様の環境を作成する場合など、`git clone`するよりも速いです。
 ```
 $ wget https://github.com/y-ken/mysql_casual_talks_vol4/archive/gh-pages.zip
 ```
-※ 大変容量が大きいため、固定回線からのご利用をお勧めします
