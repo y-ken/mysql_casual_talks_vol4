@@ -27,7 +27,7 @@ TODO
 |:---:|---|
 | H/W | NEC Express5800/iR120a-1E |
 | CPU | Intel Xeon L5520 2.27GHz |
-| MEM | 16GB (4GB * 4) |
+| MEM | 16GB (DDR3-1066 SDRAM Registered 4GB * 4) |
 | HDD | SAS 10krpm HDD (FUJITSU MBD2300RC) RAID-1 (MegaRAID 8708EM2) |
 
 ### ソフトウェア
@@ -82,4 +82,4 @@ gh-pagesというブランチを利用しているため、リポジトリを丸
 ```
 $ wget https://github.com/y-ken/mysql_casual_talks_vol4/archive/gh-pages.zip
 ```
-※ 大変容量が大きいため、固定回線のご利用をお勧めします
+※ 大変容量が大きいため、固定回線からのご利用をお勧めします
