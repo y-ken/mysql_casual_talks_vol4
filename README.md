@@ -15,9 +15,12 @@ MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ�
 
 ## ブログ
 TODO
+http://y-ken.hatenablog.com/
 
 ## スライド
-TODO
+SlideShareとSpeakerDeck両方にアップしました。2つとも内容は同じです。
+* https://speakerdeck.com/y_ken/mysql-casual-talks-vol-dot-4-mysql-5-dot-6deshi-meruquan-wen-jian-suo-innodb-ftsbian
+* http://www.slideshare.net/y-ken/my-sql-56innodb-fts
 
 ## 検証環境
 
