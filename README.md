@@ -14,8 +14,8 @@ MySQL Casual Talks Vol.4 での発表に利用したプログラムやデータ�
 こんな状況に果敢に挑戦したレポートです
 
 ## ブログ
-TODO
-http://y-ken.hatenablog.com/
+MySQL-5.6.10のInnoDB FTSを用いた全文検索機能についてLTしてきました。#mysqlcasual  
+http://y-ken.hatenablog.com/entry/mysql-casual-talks-vol4-innodb-fts
 
 ## スライド
 SlideShareとSpeakerDeck両方にアップしました。2つとも内容は同じです。
