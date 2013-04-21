@@ -53,6 +53,7 @@ SlideShareとSpeakerDeck両方にアップしました。2つとも内容は同�
 * MeCab ([groongaのリポジトリにあるもの](http://packages.groonga.org/centos/6/x86_64/Packages/) を利用)
   * mecab-ipadic-2.7.0.20070801-6.el6.1.x86_64
   * mecab-0.995-1.el6.x86_64
+  * mecab-devel-0.995-1.el6.x86_64 ※mecab-rubyのインストールに必要
 * Ruby-1.9.3-p374 (1.9.xならOK)
   * mecab-ruby (gem）  
   [MeCab本体と同じバージョンのtar玉をダウンロード](https://code.google.com/p/mecab/downloads/list?can=2&q=mecab-ruby&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount) して解凍後、  
